@@ -1,0 +1,3 @@
+pyodbc
+boto3
+pandas

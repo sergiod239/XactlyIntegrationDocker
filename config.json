@@ -1,0 +1,7 @@
+{
+  "ODBC_UID": "Sergio.Cubillos@cwc.com",
+  "ODBC_PWD": "1234abcD3*",
+  "QUERY": "SELECT XCR.ORDER_CODE, XCR.ITEM_CODE, XCR.PERIOD_ID, XCR.PERIOD_NAME, XCR.AMOUNT, XCR.PARTICIPANT_NAME, XCR.POSITION_NAME, XPE.START_DATE FROM xc_credit XCR JOIN xactly.xc_period XPE ON XCR.PERIOD_ID = XPE.PERIOD_ID WHERE XCR.GEOGRAPHY_NAME IN ('Colombia','Guatemala','Costa Rica','Dominican Republic','Honduras','El Salvador') AND XPE.START_DATE >= '2024-09-01';",
+  "BUCKET_NAME": "ccg-xactlyextracts",
+  "FILE_NAME": "prueba.csv"
+}
